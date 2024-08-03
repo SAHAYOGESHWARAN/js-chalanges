@@ -1,0 +1,14 @@
+//In this exercise we practice how to declare a new variable and how to assign it a number.
+// The console.log() statement below attempts to log a variable named num.
+//Declare a variable with this name and assign it a number of your choice. 
+//Run the code to see if the number is being logged.
+
+
+
+// console.log('The value of num is: ' + num);
+
+
+const num = 10;
+console.log('The value of num is: ' + num);
+
+// Output: The value of num is: 10
