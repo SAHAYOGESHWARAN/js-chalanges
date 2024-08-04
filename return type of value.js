@@ -1,6 +1,6 @@
 function myFunction(a)
 {
-return 5;
+return 590;
 }
 
 console.log(myFunction(5));
