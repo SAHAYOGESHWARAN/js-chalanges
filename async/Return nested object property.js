@@ -1,3 +1,11 @@
+
+function myFunction(obj) {
+    if (obj && obj.a && obj.a.b !== undefined) {
+      return obj.a.b;
+    }
+    return undefined;
+  }
+
 const obj1 = { a: { b: 'value' } };
 const obj2 = { a: {} };
 const obj3 = {};
