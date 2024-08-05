@@ -1,4 +1,5 @@
-function myFunction(set) {
-    return Array.from(set);
+
+  function myFunction(set) {
+    return [...set];
   }
   
