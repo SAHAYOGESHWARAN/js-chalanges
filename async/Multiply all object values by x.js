@@ -9,3 +9,10 @@ function myFunction(a, b) {
     return result;
   }
   
+
+  const obj = { x: 2, y: 5, z: 10 };
+const multiplier = 3;
+
+console.log(myFunction(obj, multiplier));
+// Output: { x: 6, y: 15, z: 30 }
+
