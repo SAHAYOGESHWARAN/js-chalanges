@@ -1,3 +1,8 @@
+function myFunction(obj) {
+    const { b, ...rest } = obj;
+    return rest;
+  }
+  
 const obj1 = { a: 1, b: 2, c: 3 };
 const obj2 = { x: 10, y: 20 };
 
