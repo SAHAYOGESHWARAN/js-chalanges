@@ -1,5 +1,8 @@
+const mySet = new Set([1, 2, 3, 4, 5]);
 
-  function myFunction(set) {
-    return [...set];
-  }
-  
+console.log(myFunction(mySet)); 
+
+
+
+
+// Output: [1, 2, 3, 4, 5]
