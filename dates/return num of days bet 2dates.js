@@ -7,4 +7,9 @@ function myFunction(a, b) {
     return Math.round(diffInDays); 
   }
   
- 
+  const date1 = new Date('2024-08-01');
+const date2 = new Date('2024-08-05');
+
+console.log(myFunction(date1, date2)); 
+
+// Output: 4
