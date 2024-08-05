@@ -1,5 +1,6 @@
+
 function myFunction(a, b) {
-   
-    return new Set([...a, ...b]);
-  }
-     
+  const result = new Set(a);
+  b.forEach((el) => result.add(el));
+  return result;
+}
